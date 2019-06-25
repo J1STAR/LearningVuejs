@@ -15,14 +15,18 @@ Vue 구조도
 
 \
 Vue Instance
-- Create Instance : new Vue();
+- Create Instance
+```javascript
+new Vue();
+```
 
 \
 생성자 함수
-- function FunctionName(parameters) {
-        // define something
-    }
-
+```javascript
+function FunctionName(parameters) {
+    // define something
+}
+```
 \
 Vue Component
 - 화면의 영역을 영역별로 구분하여 코드로 관리하는 것
