@@ -1,7 +1,8 @@
-# LearningVuejs
+# Learning Vuejs
 
 ### MVVM 모델에서의 Vue
 
+\
 Vue란?
 - MVVM 패턴의 뷰모델(ViewModel) 레이어에 해당하는 화면(View)단 라이브러리
 
