@@ -1,7 +1,5 @@
 # Learning Vuejs
 
-### MVVM 모델에서의 Vue
-
 \
 Vue란?
 - MVVM 패턴의 뷰모델(ViewModel) 레이어에 해당하는 화면(View)단 라이브러리
@@ -38,3 +36,9 @@ Vue 전역 컴포넌트와 지역 컴포넌트의 차이점
 2. 서비스를 구현할 때, 대부분 components라는 속성을 사용
 3. Vue.component() 같이 전역 컴포넌트는 plugin이나 라이브러리와 같이 전역으로 사용해야 할 필요가 있는 경우 사용
 4. 일반적으로는 components에 등록하여 사용
+
+\
+컴포넌트 통신
+
+\
+Event emit

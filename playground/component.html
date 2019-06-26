@@ -10,7 +10,12 @@
 <body>
     <div id="app">
         <app-header></app-header>
-        <app-content></app-content>
+        <!--<app-content></app-content>-->
+        <app-footer></app-footer>
+    </div>
+
+    <div id="app2">
+        <app-header></app-header>
         <app-footer></app-footer>
     </div>
 
@@ -21,9 +26,9 @@
         Vue.component('app-header', {
             template: '<h1>Header</h1>'
         });
-        Vue.component('app-content', {
+        /*Vue.component('app-content', {
             template: '<div>content</div>'
-        });
+        });*/
         // Vue.component('컴포넌트 이름', 브라우저에 표시될 내용);
 
         // instance를 생성하면 기본적으로 Root component
@@ -35,6 +40,15 @@
 
                 // 'key': 'value'형태로 정의
                 // '컴포넌트 이름': 컴포넌트 내용 형태로 정의
+                'app-footer': {
+                    template: '<footer>footer</footer>'
+                }
+            }
+        });
+
+        new Vue({
+            el: '#app2',
+            components: {
                 'app-footer': {
                     template: '<footer>footer</footer>'
                 }
